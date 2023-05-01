@@ -596,7 +596,7 @@ footer {
 }
 
 .textos p {
-    font-family:'Roboto' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     display: flex;
     width: 70%;
@@ -665,6 +665,7 @@ footer {
     margin-top: 30px;
 
 }
+
 /* seccion organiza tu evento */
 .h_evento {
     display: flex;
@@ -679,15 +680,15 @@ footer {
 
 .h_evento_textos {
     width: 50%;
-   /*  height: 30%; */
-   /*  float: right; */
+    /*  height: 30%; */
+    /*  float: right; */
     display: flex;
-   /*  flex-direction: column; */
+    /*  flex-direction: column; */
     align-items: center;
-   
 
 
-  
+
+
 }
 
 .h_evento h3 {
@@ -699,8 +700,9 @@ footer {
     color: darkgrey;
 
 }
-.h_evento p{
-    font-family:'Roboto' , sans-serif;
+
+.h_evento p {
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     display: flex;
     width: 50%;
@@ -710,6 +712,7 @@ footer {
     margin-left: 220px;
 
 }
+
 /* seccion actividades */
 .actividades {
     font-size: 30px;
@@ -755,7 +758,8 @@ footer {
     background-size: cover;
     background-position: 55% center;
 }
-.afoto2:hover{
+
+.afoto2:hover {
     transform: scale(60%) rotate(20deg);
     filter: none;
 
@@ -767,10 +771,11 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 80% 10%;
-   filter: grayscale(2);
+    filter: grayscale(2);
 
 }
-.afoto3:hover{
+
+.afoto3:hover {
     transform: translate(4em);
 }
 
@@ -780,7 +785,8 @@ footer {
     background-size: cover;
     background-position: 30% 0%;
 }
-.afoto4:hover{
+
+.afoto4:hover {
     transform: scaleX(1.5);
 }
 
@@ -792,39 +798,57 @@ footer {
     filter: sepia();
 
 }
-.afoto5:hover{
-    transform: scale(1.5)  rotate(360deg);
-  
-   
-    
+
+.afoto5:hover {
+    transform: scale(1.5) rotate(360deg);
+
+
+
 }
 
 
 /* -------- CUBOS DE LAS HABITACIONES(ARTICLE) ----------------*/
 
-.h_habitaciones{
+.h_habitaciones {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
 }
-@keyframes habitaciones{
-    0%{transform: translateX(0px);}
-    25%{transform: translateX(10px);}
-    50%{transform: translateX(5px);}
-    75%{transform: translateX(5px);}
-    100%{transform:translateX(0px);}
+
+@keyframes habitaciones {
+    0% {
+        transform: translateX(0px);
+    }
+
+    25% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
 }
 
-.h_habitaciones h3{
+.h_habitaciones h3 {
     font-size: 1.5em;
 }
-.h_habitaciones h5{
+
+.h_habitaciones h5 {
     font-size: 0.7em;
     font-style: italic;
 
 }
-.h_habitaciones p{
+
+.h_habitaciones p {
     font-weight: 100;
     margin-left: 20px;
     margin-right: 20px;
@@ -832,65 +856,59 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.2px;
 }
-.hb_1{
+
+.hb_1 {
     width: 50%;
     display: flex;
     border: 2px solid black;
     margin-top: 30px;
     color: rgb(138, 136, 136);
     text-align: center;
-   
+
 
 }
 
-.hb_1 img{
+.hb_1 img {
     float: right;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_1 img:hover{animation:  habitaciones 0.5s ease-in-out infinite;}
-.hb_1 div{
+
+.hb_1 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_1 div {
     float: right;
     text-align: center;
-  
+
 
 }
-.hb_2{
+
+.hb_2 {
     width: 50%;
     display: flex;
     border: 2px solid black;
     color: rgb(138, 136, 136);
     margin-top: 30px;
-  
+
 
 }
-.hb_2 img{
+
+.hb_2 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_2 img:hover{ animation:  habitaciones  0.5s ease-in-out infinite;  }
-.hb_2 div{
+
+.hb_2 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_2 div {
     float: left;
     text-align: center;
 }
-.hb_3{
-    width: 50%;
-    display: flex;
-    border: 2px solid black;
-    color: rgb(138, 136, 136);
-    margin-top: 30px;
-    letter-spacing: 1px;
 
-}
-.hb_3 img{
-    float: left;
-    margin:0px ;
-}
-.hb_3 img:hover{ animation:  habitaciones  0.5s ease-in-out infinite;  }
-.hb_3 div{
-    float: left;
-    text-align: center;
-}
-.hb_4{
+.hb_3 {
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -899,16 +917,22 @@ footer {
     letter-spacing: 1px;
 
 }
-.hb_4 img{
+
+.hb_3 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_4 img:hover{ animation:  habitaciones 0.5s ease-in-out infinite;  }
-.hb_4 div{
+
+.hb_3 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_3 div {
     float: left;
     text-align: center;
 }
-.hb_5{
+
+.hb_4 {
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -917,16 +941,22 @@ footer {
     letter-spacing: 1px;
 
 }
-.hb_5 img{
+
+.hb_4 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_5 img:hover{ animation:  habitaciones  0.5s ease-in-out infinite;  }
-.hb_5 div{
+
+.hb_4 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_4 div {
     float: left;
     text-align: center;
 }
-.hb_6{
+
+.hb_5 {
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -935,16 +965,22 @@ footer {
     letter-spacing: 1px;
 
 }
-.hb_6 img{
+
+.hb_5 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_6 img:hover{ animation:  habitaciones 0.5s ease-in-out infinite;  }
-.hb_6 div{
+
+.hb_5 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_5 div {
     float: left;
     text-align: center;
 }
-.hb_7{
+
+.hb_6 {
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -953,16 +989,22 @@ footer {
     letter-spacing: 1px;
 
 }
-.hb_7 img{
+
+.hb_6 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_7 img:hover{ animation:  habitaciones 0.5s ease-in-out infinite;  }
-.hb_7 div{
+
+.hb_6 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_6 div {
     float: left;
     text-align: center;
 }
-.hb_8{
+
+.hb_7 {
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -971,16 +1013,22 @@ footer {
     letter-spacing: 1px;
 
 }
-.hb_8 img{
+
+.hb_7 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_8 img:hover{ animation:  habitaciones 0.5s ease-in-out infinite;  }
-.hb_8 div{
+
+.hb_7 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_7 div {
     float: left;
     text-align: center;
 }
-.hb_9{
+
+.hb_8 {
     width: 50%;
     display: flex;
     border: 2px solid black;
@@ -989,73 +1037,110 @@ footer {
     letter-spacing: 1px;
 
 }
-.hb_9 img{
+
+.hb_8 img {
     float: left;
-    margin:0px ;
+    margin: 0px;
 }
-.hb_9 img:hover{ animation:  habitaciones  0.5s ease-in-out infinite;  }
-.hb_9 div{
+
+.hb_8 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_8 div {
     float: left;
     text-align: center;
 }
-.sectionh_iconos{
+
+.hb_9 {
+    width: 50%;
     display: flex;
-   align-items: center;
-   flex-direction: column;
-   
+    border: 2px solid black;
+    color: rgb(138, 136, 136);
+    margin-top: 30px;
+    letter-spacing: 1px;
+
 }
-.sectionh_iconos h3{
+
+.hb_9 img {
+    float: left;
+    margin: 0px;
+}
+
+.hb_9 img:hover {
+    animation: habitaciones 0.5s ease-in-out infinite;
+}
+
+.hb_9 div {
+    float: left;
+    text-align: center;
+}
+
+.sectionh_iconos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.sectionh_iconos h3 {
     margin-top: 50px;
     margin-bottom: 30px;
     letter-spacing: 0.5px;
     font-size: 26px;
     font-family: sans-serif, 'Playfair';
-    font-style:italic;
+    font-style: italic;
 }
-.h_iconos{
-   align-items:center;
-   display: flex;
-   width:60%;
-   flex-wrap: wrap;
-   justify-content: space-around;
+
+.h_iconos {
+    align-items: center;
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.h_iconos div{
+
+.h_iconos div {
     display: flex;
     flex-direction: column;
     align-items: center;
-  
-} 
-.h_iconos p{
+
+}
+
+.h_iconos p {
     font-size: 14px;
     width: 70%;
     display: flex;
     letter-spacing: 1px;
     text-align: center;
-  
- 
+
+
 }
-.h_iconos img{
+
+.h_iconos img {
     margin-top: 7px;
     justify-content: center;
     width: 50px;
 
 
 }
-.suscribete{
+
+.suscribete {
     margin-top: 20px;
     margin-bottom: 40px;
     font-size: 14px;
 
 }
-.suscribete a{
+
+.suscribete a {
     color: #000;
 }
 
 
 
 /*--------------CONTACTO CSS----------------*/
-#main{
-   
+#main {
+
     font-size: 16px;
     box-sizing: border-box;
     padding-top: 64px;
@@ -1064,158 +1149,176 @@ footer {
     padding-right: 32px;
     display: grid;
     grid-template-areas: "headerContactos  headerContactos "
-                         "secForm   aside"
-                         "footer footer "   ;
+        "secForm   aside"
+        "footer footer ";
 }
 
 /* cabecera de la pagina */
-.headerContactos{
+.headerContactos {
     grid-area: headerContactos;
     text-align: center;
 }
-.headerContactos h1{
+
+.headerContactos h1 {
     font-family: ' Oswald', sans-serif;
     font-size: 4em;
     font-weight: 300;
     text-transform: capitalize;
-  
+
 }
-.headerContactos h3{
+
+.headerContactos h3 {
     font-family: ' PlayFair Display', sans-serif;
     font-size: 2rem;
-    font-weight:400;
+    font-weight: 400;
     font-style: italic;
-  
-  
+
+
 }
-.headerContactos p{
-    font-family:'Droid-serif';
+
+.headerContactos p {
+    font-family: 'Droid-serif';
     font-size: 1em;
     font-weight: 400;
-  
-  
+
+
 }
+
 /* seccion del formulario */
-.secForm{
+.secForm {
     display: flex;
     flex-direction: column;
     width: 60%;
     margin-left: 400px;
     margin-right: 0px;
-   
-  
-   
-   
-   
+
+
+
+
+
 }
-form{
+
+form {
     padding-right: 0px;
     margin-right: 0px;
     grid-area: sectForm;
     width: 624px;
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px 40px;
     align-items: center;
     margin-bottom: 100px;
-    
-   
+
+
 
 }
-.dNombre{
+
+.dNombre {
     grid-column: span 2;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 }
-.dCiudad{
+
+.dCiudad {
     grid-column: span 2;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 
 }
-.dEmail{
+
+.dEmail {
     grid-column: span 2;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 }
-.dTelefono{
+
+.dTelefono {
     grid-column: span 2;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
-.dAsunto{
+
+.dAsunto {
     grid-column: span 4;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
-.dConsulta{
+
+.dConsulta {
     grid-column: span 4;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 }
 
-.dPolitica{
+.dPolitica {
     grid-column: span 4;
-    display:flex;
+    display: flex;
     flex-direction: row;
 
-   /*  justify-content: space-around; */
+    /*  justify-content: space-around; */
 }
-button{
- margin-left: 60px;
- width: 20%;
+
+button {
+    margin-left: 60px;
+    width: 20%;
 
 }
+
 /* tabla  */
-.tabla{
-   box-sizing: border-box;
-   border: #000 1px solid;
-   border-collapse: collapse;
-   width: 640px;
-   display: flex;
-   flex-direction: column;
-    
-}
-th{
-      /*   border: #333 1px solid; */
-        padding: 8px;
-      
-     /*    grid-row: 4; */
+.tabla {
+    box-sizing: border-box;
+    border: #000 1px solid;
+    border-collapse: collapse;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
 
 }
-td{
-    border: #333 1px solid;
-    padding: 8px;
-   
 
-}
-tr{
-    border: #333 1px solid;
+th {
     padding: 8px;
 
 }
+
+td {
+    border: #333 1px solid;
+    padding: 8px;
+
+
+}
+
+tr {
+    border: #333 1px solid;
+    padding: 8px;
+
+}
+
 /* frase bajo la tabla */
-.secForm p{
+.secForm p {
     margin-top: 50px;
 }
-aside{
+
+aside {
     border-left: 2px black solid;
     grid-area: aside;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
 }
-.contactanos h5{
-   text-align: center;
+
+.contactanos h5 {
+    text-align: center;
 }
-.contacto_redes img{
+
+.contacto_redes img {
     width: 40px;
 }
-.frase{
+
+.frase {
     width: 100%;
     text-align: center;
     border-top: #333 solid 2px;
@@ -1224,6 +1327,7 @@ aside{
     padding-bottom: 16px;
     margin-left: 400px;
 }
+
 /* -----------localizacion--------------------------- */
 /* .localizacion{
    width: 60%;
@@ -1263,4 +1367,3 @@ aside{
     color: grey;
     font-style:italic ;
 } */
-
