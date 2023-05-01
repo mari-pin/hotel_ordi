@@ -1,0 +1,334 @@
+/*-----------HEADER --------------*/
+
+header {
+
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background-color: white;
+    margin-right: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    justify-content: space-evenly;
+    display: inline-flex;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+
+
+}
+
+
+.head_1 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+
+}
+
+.h_1 {
+    flex-direction: row;
+    align-content: center;
+    display: flex;
+
+}
+
+
+.h_1 img {
+    width: 100%;
+    padding-top: 12px;
+
+
+}
+
+.h_1 p {
+    padding-right: 3px;
+}
+
+.head_2 {
+    width: 350px;
+    height: 160px;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    background-image: url(img/Logo.png);
+
+
+}
+
+
+
+.h_3 {
+    flex-direction: row;
+    align-content: space-between;
+    display: inline-flex;
+
+}
+
+.h_3 img {
+    padding-top: 7px;
+    align-content: flex-end;
+
+}
+
+.h_3 p {
+    padding-right: 3px;
+}
+
+
+
+
+header hr {
+    width: 80%;
+    justify-content: center;
+    color: #000;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: sticky;
+
+
+}
+
+nav ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+nav li a:hover {
+    color: darkgrey;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+
+    /*  background-image: url(img/hotel.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+ */
+
+}
+
+
+
+
+
+
+/* -----------localizacion--------------------------- */
+.localizacion {
+    width: 60%;
+    margin-left: 400px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+iframe {
+
+    border-radius: 30px 300px;
+    margin-right: 20px;
+
+
+}
+
+.localizacion div {
+    border: 1px grey solid;
+    margin-left: 50px;
+    width: 40%;
+    border-radius: 30px;
+    padding-top: 70px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#tituloHorario {
+    color: grey;
+    font-size: 25px;
+
+
+}
+
+#tituloHorario ul {
+    text-align: left;
+
+
+}
+
+#li {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.list {
+
+    list-style: none;
+}
+
+.localizacion p {
+    font-size: large;
+    color: grey;
+    font-style: italic;
+}
+
+/*----------- Footer--------------- */
+footer {
+
+    width: 100%;
+    padding: 30px;
+    background-color: darkgrey;
+    display: grid;
+
+
+
+
+}
+
+.f_grid {
+    width: 80%;
+    padding: 30px;
+    margin-left: 90px;
+    background-color: darkgrey;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /*   display: flex;
+    flex-direction: column;
+} */
+}
+
+.nombre hr {
+    color: white;
+    justify-content: center;
+    width: 100%;
+    height: 2px;
+    /*  grid-template-columns:  33fr;
+   grid-template-rows: 3fr; */
+
+
+
+}
+
+
+.f_logo {
+    background-image: url('img/Logo_trans.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+    grid-area: 1;
+    padding-right: 100px;
+    width: 220px;
+    height: 80px;
+
+}
+
+.f_direccion {
+    grid-template-columns: 2px;
+    grid-area: 1;
+    padding-left: 20px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+
+}
+
+.f_sello {
+    background-repeat: no-repeat;
+    background-image: url('img/sello-traveller-footer.png');
+    background-size: 90px;
+    /*  grid-area: 1; */
+    width: 90px;
+    height: 90px;
+    grid-column: 3;
+    grid-row: 1;
+
+
+
+
+}
+
+.f_calidad {
+    width: 200px;
+    height: 100px;
+    background-image: url('img/logo-hotelero-ruralka.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column: 4;
+    grid-row: 1;
+
+
+}
+
+.f_adult {
+    width: 100px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url('img/solo-adultos_es.png');
+    background-size: 100px;
+    grid-column: 2;
+    grid-row: 2;
+    /*  padding-top: 50px; */
+}
+
+
+.f_ubicacion {
+
+    grid-area: 3;
+}
+
+.f_ubicacion a {
+    text-decoration: none;
+    color: #000;
+    padding: 0px;
+}
+
+.f_redes {
+
+    grid-column: 4;
+    grid-row: 3;
+
+
+}
+
+.f_redes a img {
+    width: 20%;
+    height: 30px;
+
+}
+
+.f_nombre {
+    justify-content: center;
+
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
