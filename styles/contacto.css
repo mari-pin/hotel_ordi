@@ -55,7 +55,7 @@ header {
     height: 160px;
     background-repeat: no-repeat;
     display: inline-flex;
-    background-image: url(/img/Logo.png);
+    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/Logo.png);
 
 
 }
@@ -118,9 +118,6 @@ nav li a {
 nav li a:hover {
     color: darkgrey;
 }
-
-
-
 
 
 /*--------------CONTACTO CSS----------------*/
@@ -228,11 +225,7 @@ form{
     flex-direction: column;
 
 }
-.dConsulta input{
-  
-   
- 
-}
+
 .dPolitica{
     grid-column: span 4;
     display:flex;
@@ -315,9 +308,6 @@ footer {
     background-color: darkgrey;
     display: grid;
 
-
-
-
 }
 
 .f_grid {
@@ -328,9 +318,7 @@ footer {
     display: grid;
     align-content: center;
     justify-content: center;
-    /*   display: flex;
-    flex-direction: column;
-} */
+
 }
 
 .nombre hr {
@@ -338,16 +326,12 @@ footer {
     justify-content: center;
     width: 100%;
     height: 2px;
-    /*  grid-template-columns:  33fr;
-   grid-template-rows: 3fr; */
-
-
-
+ 
 }
 
 
 .f_logo {
-    background-image: url(/img/Logo_trans.png);
+    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/Logo_trans.png);
     background-size: 150px;
     background-repeat: no-repeat;
     grid-area: 1;
@@ -368,7 +352,7 @@ footer {
 
 .f_sello {
     background-repeat: no-repeat;
-    background-image: url(/img/sello-traveller-footer.png);
+    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/sello-traveller-footer.png);
     background-size: 90px;
     /*  grid-area: 1; */
     width: 90px;
@@ -384,7 +368,7 @@ footer {
 .f_calidad {
     width: 200px;
     height: 100px;
-    background-image: url(/img/logo-hotelero-ruralka.png);
+    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/logo-hotelero-ruralka.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column: 4;
@@ -397,7 +381,7 @@ footer {
     width: 100px;
     height: 40px;
     background-repeat: no-repeat;
-    background-image: url(/img/solo-adultos_es.png);
+    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/solo-adultos_es.png);
     background-size: 100px;
     grid-column: 2;
     grid-row: 2;
@@ -433,9 +417,6 @@ footer {
 .f_nombre {
     justify-content: center;
 
-    /*  grid-column: 2;
-    grid-row: 5;
-} */
 }
 
 .nombre {
