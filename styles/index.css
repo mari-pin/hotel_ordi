@@ -132,7 +132,7 @@ main {
 .imgPortada {
     display: flex;
     flex-direction: row;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/hotel.png);
+    background-image: url(../img/hotel.png);
     width: 100%;
     height: 900px;
     position: sticky;
@@ -326,7 +326,7 @@ main {
     width: 500px;
     height: 225px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/index/img1.png);
+    background-image: url(../img/index/img1.png);
     box-sizing: border-box;
 
 
@@ -338,7 +338,7 @@ main {
     width: 500px;
     height: 225px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/index/img2.png);
+    background-image: url(../img/index/img2.png);
 
 }
 
@@ -346,14 +346,14 @@ main {
     width: 500px;
     height: 225px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/index/img3.png);
+    background-image: url(../img/index/img3.png);
 }
 
 .imgC4 {
     width: 500px;
     height: 225px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/index/img4.png);
+    background-image: url(../img/index/img4.png);
 
 }
 
@@ -361,7 +361,7 @@ main {
     width: 500px;
     height: 225px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/index/img5.png);
+    background-image: url(../img/index/img5.png);
 
 }
 
@@ -369,7 +369,7 @@ main {
     width: 500px;
     height: 225px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/index/img6.png);
+    background-image: url(../img/index/img6.png);
 
 }
 
@@ -409,7 +409,7 @@ footer {
 
 
 .f_logo {
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/Logo_trans.png);
+    background-image: url(../img/Logo_trans.png);
     background-size: 150px;
     background-repeat: no-repeat;
     grid-area: 1;
@@ -430,7 +430,7 @@ footer {
 
 .f_sello {
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/sello-traveller-footer.png);
+    background-image: url(../img/sello-traveller-footer.png);
     background-size: 90px;
     /*  grid-area: 1; */
     width: 90px;
@@ -446,7 +446,7 @@ footer {
 .f_calidad {
     width: 200px;
     height: 100px;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/logo-hotelero-ruralka.png);
+    background-image: url(../img/logo-hotelero-ruralka.png);
     background-size: contain;
     background-repeat: no-repeat;
     grid-column: 4;
@@ -459,7 +459,7 @@ footer {
     width: 100px;
     height: 40px;
     background-repeat: no-repeat;
-    background-image: url(/IBAÑEZ_ROSALEN_MARIA_LM_P2/img/solo-adultos_es.png);
+    background-image: url(../img/solo-adultos_es.png);
     background-size: 100px;
     grid-column: 2;
     grid-row: 2;
